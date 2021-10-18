@@ -1,0 +1,25 @@
+
+   /* Gradiente_Granuloso */
+
+   .segundo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(181, 244, 255);
+   
+  }
+  
+  svg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .noise {
+    width: 400px;
+    height: 100px;
+    background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+    filter: contrast(170%) brightness(1000%);  
+  }

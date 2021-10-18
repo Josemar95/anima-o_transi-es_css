@@ -1,4 +1,4 @@
-body{
+.premeiro{
     background-color: blue;
     color: white;
 }
@@ -231,3 +231,5 @@ body{
       transform-box: fill-box;
       transform-origin: 50% 50%;
       }
+
+

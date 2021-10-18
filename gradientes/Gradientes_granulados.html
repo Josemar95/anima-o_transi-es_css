@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Gradiente_Granulosos.css">
+    <title>Gradientes granulados</title>
+</head>
+
+<body class="segundo">
+    <p>
+        Este exemplo SVG cria um filtro e renderiza um <rect>elemento que podemos usar para nossos gradientes granulados. Observe que o SVG <filter>é definido separadamente do <rect>e <rect>simplesmente faz referência a ele.
+    </p> 
+
+    <svg viewBox="0 0 200 200" xmlns='http://www.w3.org/2000/svg'>
+        
+        <filter id='noiseFilter'>
+          <feTurbulence 
+            type='fractalNoise' 
+            baseFrequency='0.65' 
+            numOctaves='3' 
+            stitchTiles='stitch' />
+        </filter>
+      
+        <rect width='100%' height='100%' filter='url(#noiseFilter)'/>
+      
+    </svg>
+
+    <div class="noise"></div>
+</body>
+</html>
