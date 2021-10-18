@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animações e Transições</title>
+</head>
+<body>
+
+    <h1>Animações e Transições</h1>
+    <h2>Transform</h5>
+    
+    <h3>Valores</h3> 
+    <p>
+        scale(): Afeta o tamanho do elemento. Isto também se aplica ao font-size, padding, height, e widthde um elemento, também. É também uma função abreviada para as funções scaleXe scaleY. <br> <br>
+
+        skewX()e skewY(): Inclina um elemento para a esquerda ou direita, como transformar um retângulo em um paralelogramo.
+    
+        Skew()é uma abreviatura que combina skewX() e skewY aceita ambos os valores. <br> <br>
+
+        translate(): Move um elemento para os lados ou para cima e para baixo.
+
+        rotate(): Gira o elemento no sentido horário a partir de sua posição atual. <br> <br>
+
+        matrix(): Uma função que provavelmente não foi criada para ser escrita à mão, mas combina todas as transformações em uma. <br> <br>
+
+        perspective(): Não afeta o elemento em si, mas afeta as transformações das transformações 3D dos elementos descendentes, permitindo que todos tenham uma perspectiva de profundidade consistente.
+    </p>
+    <div>
+        <h4>EXEMPLO:</h4>  
+
+        <div class="element">
+        </div>
+        <div class="element">
+        </div>
+        <div class="element">
+        </div>
+    </div>
+
+    <p>
+        Para alterar as suas movimentções, basta alterar as coordenadas no @keyframes no valor X e Y.
+    </p>
+       
+    <div>
+        <h4>EXEMPLO:</h4>  
+
+        <div class="element2">
+        </div>
+        <div class="element2">
+        </div>
+        <div class="element2">
+        </div>
+    </div>
+
+    <p>
+        Podemos também usar as rotateX, rotateY e rotateZ funções, assim: 
+    </p>
+    <div>
+        <h4>EXEMPLO:</h4>  
+
+        <div class="element um">
+        </div>
+        <div class="element dois">
+        </div>
+        <div class="element tres">
+        </div>
+    </div>
+        <div>
+            <h4>Translate</h4>
+            <p>
+            Importante observar que um elemento usando transformnão fará com que outros elementos fluam em torno dele. Usando a translatefunção abaixo e empurrando o quadrado verde para fora de sua posição original, notaremos como o texto ao redor permanecerá fixo no lugar, como se o quadrado fosse um elemento de bloco:
+            </p>
+            <div class="square"></div>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sit aperiam odit libero soluta delectus voluptatibus saepe laboriosam maiores, quas, fuga vitae. Suscipit eum assumenda hic sunt, debitis voluptatum odit.
+
+            </p>
+
+        </div>
+  
+        <div>
+            <h3>Animação Olá Josemar</h3>
+
+            <div class="wrap">
+ 
+                <svg width="250" height="250" viewBox="0 0 100 100" class="circles">
+                 <circle cx="50" cy="50" r="44" stroke="#000" stroke-width="3" stroke-dasharray="0 6" stroke-linecap="round" fill="transparent"/>
+                   <circle cx="50" cy="50" r="38" stroke="#000" stroke-width="3" stroke-dasharray="0 6" stroke-linecap="round" fill="transparent"/>
+                </svg>
+                
+                <h2>Olá Josemar</h2>
+                  
+                </div>
+        </div>
+        
+</body>
+</html>
